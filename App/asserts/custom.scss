@@ -1,10 +1,16 @@
+@import '~bootstrap';
 $body-color : blue;
 
 body {
     background-color: $body-color;
+
     h1 {
         color: white;
         text-decoration: underline;
         text-align: center;
+    }
+    ol {
+        color: yellow;
+        
     }
 }

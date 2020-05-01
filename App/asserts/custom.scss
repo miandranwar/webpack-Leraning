@@ -1,14 +1,10 @@
 @import '~bootstrap';
-$body-color : blue;
+@import './scss-modules/variables';
+@import './scss-modules/header';
 
 body {
-    background-color: $body-color;
+    background-color: $background;
 
-    h1 {
-        color: white;
-        text-decoration: underline;
-        text-align: center;
-    }
     ol {
         color: yellow;
         
